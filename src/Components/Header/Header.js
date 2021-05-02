@@ -16,7 +16,7 @@ const Header = () => {
                       <h5 class='info'>Hello, I'm</h5>
                       <h2>Kaiser Samrat</h2>
                       <h3 class='info'>Front End Developer</h3>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque repellendus fugiat iusto placeat dignissimos quasi, iste omnis neque maiores reprehenderit. Harum recusandae omnis accusamus iure eum placeat ipsum sit maxime.</p>
+                      <p>Knowledgeable Software developer with experience in developing various web applications. Skilled in Front-end service development. Capable of creating a web application which is attractive, user-friendly and matches user expectation.</p>
                       <a class='hire-button' target='_blank' href="https://drive.google.com/file/d/1Ojlmhao-EYn2FEjl29d3FOryLumM7ktI/view?usp=sharing">Resume</a>
 
                    </div>
