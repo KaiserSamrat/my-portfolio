@@ -32,7 +32,7 @@ const Project = () => {
                         <li>Alternative dashboard for user and admin</li>
 
                     </ul>
-                    <h4>Technology:</h4>
+                    <h4>Used Stack:</h4>
                     <div className="">
                         <p className='expertise-button '>HTML5</p>
                         <p className='expertise-button ms-2'>CSS3</p>
@@ -61,7 +61,7 @@ const Project = () => {
                         <li>Post/comment option in blog platform.</li>
 
                     </ul>
-                    <h4>Technology:</h4>
+                    <h4>Used Stack:</h4>
                     <div className="">
                         <p className='expertise-button '>HTML5</p>
                         <p className='expertise-button ms-2'>CSS3</p>

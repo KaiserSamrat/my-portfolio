@@ -7,28 +7,22 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Navbar from './Components/Navbar/Navbar';
-import Header from './Components/Header/Header';
-import Expertise from './Components/Expertise/Expertise'
-import Project from './Components/Project/Project';
-import Blog from './Components/Blog/Blog';
-import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer';
+
+import Allproject from './Components/Allproject/Allproject';
+import Home from './Components/Home/Home';
 
 function App() {
   return (
     <div>
       <Router>
-        <Navbar></Navbar>
-        <Header></Header>
-        <Expertise></Expertise>
-        <Project></Project>
-        <Blog></Blog>
-        <Contact></Contact>
-        <Footer></Footer>
+       
         <Switch>
-          <Route path='/'>
-           
+          <Route exact path="/">
+            <Home></Home>
+
+          </Route>
+          <Route path='/allProject'>
+            <Allproject></Allproject>
 
           </Route>
         </Switch>
