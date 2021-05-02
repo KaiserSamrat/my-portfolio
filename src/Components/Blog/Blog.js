@@ -1,8 +1,8 @@
 import React from 'react';
 import './Blog.css'
-import reactImg from '../images/React.jpg'
-import jsImg from '../images/js.jpg'
-import materialImg from '../images/material.png'
+import reactImg from '../../images/React.jpg'
+import jsImg from '../../images/js.jpg'
+import materialImg from '../../images/material.png'
 
 const Blog = () => {
     return (
