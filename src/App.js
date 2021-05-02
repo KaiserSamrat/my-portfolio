@@ -12,6 +12,7 @@ import Header from './Components/Header/Header';
 import Expertise from './Expertise/Expertise';
 import Project from './Project/Project';
 import Blog from './Blog/Blog';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Expertise></Expertise>
         <Project></Project>
         <Blog></Blog>
+        <Contact></Contact>
         <Switch>
           <Route path='/'>
            

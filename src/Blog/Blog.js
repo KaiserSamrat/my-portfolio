@@ -13,7 +13,7 @@ const Blog = () => {
                         <h2 className='Blog-title'>My Blogs</h2>
                     </div>
                 </div>
-                <div className="row blog-area">
+                <div className="row blog-area mt-5">
                     <div className="col-md-4">
                         <div class="card">
                             <img class="card-img-top" src={reactImg} alt="Card image cap" />

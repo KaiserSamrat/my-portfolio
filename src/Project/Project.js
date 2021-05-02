@@ -14,7 +14,7 @@ const Project = () => {
             <div className="row mt-5">
                 <div className="col-md-5">
                     
-                    <img src={projectImage} alt="" className='img-fluid'/>
+                    <img src={projectImage} alt="" className='img-fluid project-img'/>
 
                 </div>
                 <div className="col-md-6 ms-4">
