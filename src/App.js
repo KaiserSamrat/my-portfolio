@@ -11,6 +11,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Header from './Components/Header/Header';
 import Expertise from './Expertise/Expertise';
 import Project from './Project/Project';
+import Blog from './Blog/Blog';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Header></Header>
         <Expertise></Expertise>
         <Project></Project>
+        <Blog></Blog>
         <Switch>
           <Route path='/'>
            

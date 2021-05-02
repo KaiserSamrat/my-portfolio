@@ -11,10 +11,9 @@
     text-decoration: none;
     background-image: linear-gradient(45deg, teal, darkcyan );
     color: white;
-    padding: 10px 15px;
+    padding: 5px 10px;
     border-radius: 5px;
     display: inline-block;
-    margin-top: 5px;
     font-weight: bold;
 
 }
