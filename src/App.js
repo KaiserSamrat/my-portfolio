@@ -11,6 +11,7 @@ import {
 import Allproject from './Components/Allproject/Allproject';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
+import AllBlog from './Components/AllBlog/AllBlog';
 
 function App() {
   return (
@@ -26,6 +27,11 @@ function App() {
             <Allproject></Allproject>
 
           </Route>
+          <Route path='/allBlog'>
+           <AllBlog></AllBlog>
+
+          </Route>
+          
         </Switch>
       </Router>
      

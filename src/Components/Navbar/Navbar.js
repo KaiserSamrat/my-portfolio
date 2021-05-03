@@ -19,10 +19,10 @@ const Navbar = () => {
                 <a class="nav-link ms-3 list" href="/allProject">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-3 list" href="#">Blog</a>
+                <a class="nav-link ms-3 list" href="/allBlog">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-3 list" href="#">Contact</a>
+                <a class="nav-link ms-3 list" href="#contact-area">Contact</a>
               </li>
 
 

@@ -4,7 +4,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div>
-            <form className='container ms-auto mt-5 col-md-6 contact'>
+            <form className='container ms-auto mt-5 col-md-6 contact' id='contact-area'>
                 <h3 className='text-center'>Get in touch</h3>
                 <div class="mb-3">
                     <label class="form-label"></label>
