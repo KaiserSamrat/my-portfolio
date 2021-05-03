@@ -22,7 +22,7 @@ const Navbar = () => {
                 <a class="nav-link ms-3 list" href="/allBlog">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-3 list" href="#contact-area">Contact</a>
+                <a class="nav-link ms-3 list" href="/contactDetail">Contact</a>
               </li>
 
 
