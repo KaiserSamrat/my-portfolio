@@ -10,12 +10,13 @@ import {
 
 import Allproject from './Components/Allproject/Allproject';
 import Home from './Components/Home/Home';
+import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
     <div>
       <Router>
-       
+      <Navbar></Navbar>
         <Switch>
           <Route exact path="/">
             <Home></Home>
