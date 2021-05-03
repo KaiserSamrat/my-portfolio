@@ -3,6 +3,7 @@ import './Allproject.css'
 import project1 from '../../images/project1.png'
 import project2 from '../../images/project2.png'
 import project3 from '../../images/project3.png'
+import project4 from '../../images/project4.png'
 const Allproject = () => {
     return (
         <div>
@@ -47,10 +48,10 @@ const Allproject = () => {
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src={project3} class="card-img-top single-img" alt="..." />
+                                <img src={project4} class="card-img-top single-img" alt="..." />
                                 <div class="card-body">
-                                    <h5 class="card-title text-dark">Fantasy League</h5>
-                                    <p class="card-text text-dark">This website contains all the information about the english premiere league teams. All the information is displayed by the fetching API. Each team details is dynamically showed by team's ID</p>
+                                    <h5 class="card-title text-dark">Hungry Naki</h5>
+                                    <p class="card-text text-dark">Hungry Naki is a website where user can search food by searching a specific keyword. They can also see the ingredients of making the specific food.  </p>
                                 </div>
                                 <div class="card-footer">
                                     <small class="text-muted">Last updated 3 mins ago</small>

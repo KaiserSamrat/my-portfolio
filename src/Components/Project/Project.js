@@ -2,6 +2,7 @@ import React from 'react';
 import './Project.css'
 import projectImage from '../../images/learning.gif'
 import BookImage from '../../images/book.gif'
+import { Link } from 'react-router-dom';
 
 
 
@@ -13,6 +14,10 @@ const Project = () => {
             <div className="row">
                 <div className="col-md-3">
                     <h2 className='project-title'>My Projects</h2>
+                </div>
+                <div className='col-md-9'>
+                    <Link to='/allProject'><div className="btn project-btn">View all</div></Link>
+                    
                 </div>
             </div>
             <div className="row project">
