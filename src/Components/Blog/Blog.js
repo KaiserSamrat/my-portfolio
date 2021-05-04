@@ -3,6 +3,7 @@ import './Blog.css'
 import reactImg from '../../images/React.jpg'
 import jsImg from '../../images/js.jpg'
 import materialImg from '../../images/material.png'
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
     return (
@@ -12,6 +13,10 @@ const Blog = () => {
                     <div className="col-md-3">
                         <h2 className='Blog-title'>My Blogs</h2>
                     </div>
+                    <div className='col-md-9'>
+                    <Link to='/allBlog'><div className="btn project-btn">View all</div></Link>
+                    
+                </div>
                 </div>
                 <div className="row blog-area mt-5">
                     <div className="col-md-4">
