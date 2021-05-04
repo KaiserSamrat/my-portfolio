@@ -13,6 +13,7 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import AllBlog from './Components/AllBlog/AllBlog';
 import ContactDetails from './Components/ContactDetails/ContactDetails';
+import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -34,6 +35,10 @@ function App() {
           </Route>
           <Route path='/contactDetail'>
            <ContactDetails></ContactDetails>
+
+          </Route>
+          <Route path='*'> 
+          <NotFound></NotFound>
 
           </Route>
           
